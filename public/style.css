@@ -1,0 +1,42 @@
+h1{
+    color: rgb(7, 75, 120);
+    text-align: center;
+}
+
+.message_area{
+    height: 480px;
+    width: 600px;
+    border: 2px solid black;
+    margin: auto;
+    overflow:auto;
+    display: flex;
+    flex-direction: column;
+    gap: .6rem;
+}
+.outgoing{
+    display: flex;
+    justify-content: end;
+    gap: .5rem;
+}
+.incoming{
+    display: flex;
+    justify-content: start;
+}
+.mess_input{
+    display: flex;
+    justify-content: center;
+   
+}
+.mess_input textarea{
+    width: 40rem;
+    height: 2rem;
+    resize: none;
+    border: 1px solid green;
+}
+@media screen and (max-width:620px){
+    .message_area{
+        height: 320px;
+        width: 350px;
+    }
+    }
+ 
